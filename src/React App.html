@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://localhost:3000/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <link rel="icon" href="http://localhost:3000/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#000000">
+    <meta name="description" content="Web site created using create-react-app">
+    <link rel="apple-touch-icon" href="http://localhost:3000/logo192.png">
+    <link rel="manifest" href="http://localhost:3000/manifest.json">
+    <link href="./React App_files/all.min.css" rel="stylesheet">
+
+    <title>React App</title>
+  <script defer="" src="./React App_files/bundle.js.download"></script><style>body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9pbmRleC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxTQUFTO0VBQ1Q7O2NBRVk7RUFDWixtQ0FBbUM7RUFDbkMsa0NBQWtDO0FBQ3BDOztBQUVBO0VBQ0U7YUFDVztBQUNiIiwic291cmNlc0NvbnRlbnQiOlsiYm9keSB7XG4gIG1hcmdpbjogMDtcbiAgZm9udC1mYW1pbHk6IC1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgJ1JvYm90bycsICdPeHlnZW4nLFxuICAgICdVYnVudHUnLCAnQ2FudGFyZWxsJywgJ0ZpcmEgU2FucycsICdEcm9pZCBTYW5zJywgJ0hlbHZldGljYSBOZXVlJyxcbiAgICBzYW5zLXNlcmlmO1xuICAtd2Via2l0LWZvbnQtc21vb3RoaW5nOiBhbnRpYWxpYXNlZDtcbiAgLW1vei1vc3gtZm9udC1zbW9vdGhpbmc6IGdyYXlzY2FsZTtcbn1cblxuY29kZSB7XG4gIGZvbnQtZmFtaWx5OiBzb3VyY2UtY29kZS1wcm8sIE1lbmxvLCBNb25hY28sIENvbnNvbGFzLCAnQ291cmllciBOZXcnLFxuICAgIG1vbm9zcGFjZTtcbn1cbiJdLCJzb3VyY2VSb290IjoiIn0= */</style><style>
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsInNvdXJjZVJvb3QiOiIifQ== */</style><style>.boxes{
+  display:flex;
+}
+.container{
+  max-width:180px;
+  display:flex;
+  justify-content: center;
+  align-self: center;
+  margin:15px;
+  flex-direction:column;
+  position:relative;
+  transition: all 0.3s ;
+  margin-top:25px;
+
+}
+.bigger-image{
+  width:100%;
+  height:250px;
+  border-radius: 10px;
+}
+.fa-star{
+  color:rgb(255, 119, 0);
+}
+p{
+  margin-top:0px;
+  margin-bottom:0px;
+}
+.price{
+  font-weight:bolder;
+}
+.hateta{
+  color:hsl(0, 4%, 56%);
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+.star{
+  color:hsl(40, 3%, 43%);
+  font-weight: bolder;
+}
+.country{
+  color:hsl(0, 5%, 66%);
+}
+.availabiity{
+  font-weight: bolder;
+  height:20px;
+  width:80px;
+  color:rgb(92, 89, 89);
+  background-color: white;
+  text-align: center;
+  position:absolute;
+  top:3px;
+  left:4px;
+  border-radius: 4px;
+  padding:0.1em;
+}
+.container:hover{
+  transform:translateY(-10px)
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9DYXJkLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLFlBQVk7QUFDZDtBQUNBO0VBQ0UsZUFBZTtFQUNmLFlBQVk7RUFDWix1QkFBdUI7RUFDdkIsa0JBQWtCO0VBQ2xCLFdBQVc7RUFDWCxxQkFBcUI7RUFDckIsaUJBQWlCO0VBQ2pCLHFCQUFxQjtFQUNyQixlQUFlOztBQUVqQjtBQUNBO0VBQ0UsVUFBVTtFQUNWLFlBQVk7RUFDWixtQkFBbUI7QUFDckI7QUFDQTtFQUNFLHNCQUFzQjtBQUN4QjtBQUNBO0VBQ0UsY0FBYztFQUNkLGlCQUFpQjtBQUNuQjtBQUNBO0VBQ0Usa0JBQWtCO0FBQ3BCO0FBQ0E7RUFDRSxxQkFBcUI7RUFDckIsaUJBQWlCO0VBQ2pCLGdCQUFnQjtBQUNsQjtBQUNBO0VBQ0Usc0JBQXNCO0VBQ3RCLG1CQUFtQjtBQUNyQjtBQUNBO0VBQ0UscUJBQXFCO0FBQ3ZCO0FBQ0E7RUFDRSxtQkFBbUI7RUFDbkIsV0FBVztFQUNYLFVBQVU7RUFDVixxQkFBcUI7RUFDckIsdUJBQXVCO0VBQ3ZCLGtCQUFrQjtFQUNsQixpQkFBaUI7RUFDakIsT0FBTztFQUNQLFFBQVE7RUFDUixrQkFBa0I7RUFDbEIsYUFBYTtBQUNmO0FBQ0E7RUFDRTtBQUNGIiwic291cmNlc0NvbnRlbnQiOlsiLmJveGVze1xyXG4gIGRpc3BsYXk6ZmxleDtcclxufVxyXG4uY29udGFpbmVye1xyXG4gIG1heC13aWR0aDoxODBweDtcclxuICBkaXNwbGF5OmZsZXg7XHJcbiAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XHJcbiAgYWxpZ24tc2VsZjogY2VudGVyO1xyXG4gIG1hcmdpbjoxNXB4O1xyXG4gIGZsZXgtZGlyZWN0aW9uOmNvbHVtbjtcclxuICBwb3NpdGlvbjpyZWxhdGl2ZTtcclxuICB0cmFuc2l0aW9uOiBhbGwgMC4zcyA7XHJcbiAgbWFyZ2luLXRvcDoyNXB4O1xyXG5cclxufVxyXG4uYmlnZ2VyLWltYWdle1xyXG4gIHdpZHRoOjEwMCU7XHJcbiAgaGVpZ2h0OjI1MHB4O1xyXG4gIGJvcmRlci1yYWRpdXM6IDEwcHg7XHJcbn1cclxuLmZhLXN0YXJ7XHJcbiAgY29sb3I6cmdiKDI1NSwgMTE5LCAwKTtcclxufVxyXG5we1xyXG4gIG1hcmdpbi10b3A6MHB4O1xyXG4gIG1hcmdpbi1ib3R0b206MHB4O1xyXG59XHJcbi5wcmljZXtcclxuICBmb250LXdlaWdodDpib2xkZXI7XHJcbn1cclxuLmhhdGV0YXtcclxuICBjb2xvcjpoc2woMCwgNCUsIDU2JSk7XHJcbiAgZm9udC1zaXplOiAwLjhyZW07XHJcbiAgZm9udC13ZWlnaHQ6IDYwMDtcclxufVxyXG4uc3RhcntcclxuICBjb2xvcjpoc2woNDAsIDMlLCA0MyUpO1xyXG4gIGZvbnQtd2VpZ2h0OiBib2xkZXI7XHJcbn1cclxuLmNvdW50cnl7XHJcbiAgY29sb3I6aHNsKDAsIDUlLCA2NiUpO1xyXG59XHJcbi5hdmFpbGFiaWl0eXtcclxuICBmb250LXdlaWdodDogYm9sZGVyO1xyXG4gIGhlaWdodDoyMHB4O1xyXG4gIHdpZHRoOjgwcHg7XHJcbiAgY29sb3I6cmdiKDkyLCA4OSwgODkpO1xyXG4gIGJhY2tncm91bmQtY29sb3I6IHdoaXRlO1xyXG4gIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICBwb3NpdGlvbjphYnNvbHV0ZTtcclxuICB0b3A6M3B4O1xyXG4gIGxlZnQ6NHB4O1xyXG4gIGJvcmRlci1yYWRpdXM6IDRweDtcclxuICBwYWRkaW5nOjAuMWVtO1xyXG59XHJcbi5jb250YWluZXI6aG92ZXJ7XHJcbiAgdHJhbnNmb3JtOnRyYW5zbGF0ZVkoLTEwcHgpXHJcbn0iXSwic291cmNlUm9vdCI6IiJ9 */</style><style>body {
+  font-family: 'Roboto', sans-serif;
+  background-color: black;
+}
+
+.contain{
+    width:300px;
+    height:300px;
+    background-color: white;
+    padding:1em;
+}
+hr {
+  border: none;               /* remove default style */
+  border-top: 1px solid rgb(0, 60, 255);  /* thickness + color */
+  margin: 10px 0;             /* spacing */
+}
+.the-line{
+    color:rgb(28, 28, 181);
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9NYWluLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLGlDQUFpQztFQUNqQyx1QkFBdUI7QUFDekI7O0FBRUE7SUFDSSxXQUFXO0lBQ1gsWUFBWTtJQUNaLHVCQUF1QjtJQUN2QixXQUFXO0FBQ2Y7QUFDQTtFQUNFLFlBQVksZ0JBQWdCLHlCQUF5QjtFQUNyRCxxQ0FBcUMsR0FBRyxzQkFBc0I7RUFDOUQsY0FBYyxjQUFjLFlBQVk7QUFDMUM7QUFDQTtJQUNJLHNCQUFzQjtBQUMxQiIsInNvdXJjZXNDb250ZW50IjpbImJvZHkge1xyXG4gIGZvbnQtZmFtaWx5OiAnUm9ib3RvJywgc2Fucy1zZXJpZjtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiBibGFjaztcclxufVxyXG5cclxuLmNvbnRhaW57XHJcbiAgICB3aWR0aDozMDBweDtcclxuICAgIGhlaWdodDozMDBweDtcclxuICAgIGJhY2tncm91bmQtY29sb3I6IHdoaXRlO1xyXG4gICAgcGFkZGluZzoxZW07XHJcbn1cclxuaHIge1xyXG4gIGJvcmRlcjogbm9uZTsgICAgICAgICAgICAgICAvKiByZW1vdmUgZGVmYXVsdCBzdHlsZSAqL1xyXG4gIGJvcmRlci10b3A6IDFweCBzb2xpZCByZ2IoMCwgNjAsIDI1NSk7ICAvKiB0aGlja25lc3MgKyBjb2xvciAqL1xyXG4gIG1hcmdpbjogMTBweCAwOyAgICAgICAgICAgICAvKiBzcGFjaW5nICovXHJcbn1cclxuLnRoZS1saW5le1xyXG4gICAgY29sb3I6cmdiKDI4LCAyOCwgMTgxKTtcclxufSJdLCJzb3VyY2VSb290IjoiIn0= */</style></head>
+  <body> 
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"><div><div class="contain"><p>GOSA GIRMA EJERSA</p><p>Available balance is ETB 482,024.31</p><p>Transactions</p><p>1: 04/08 250.00</p><p>2: 31/07 74,596.00</p><p>3: 01/07 1,560.00</p><p>4: More options</p><p class="the-line">|</p><hr></div></div></div>
+  
+
+</body></html>
